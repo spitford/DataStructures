@@ -29,7 +29,7 @@ gcc -fPIC -c objfile.c
 will create the object files for creating a dynamic library
 
 ```bash
-gcc - shared -o libmylib.so objfile.o
+gcc -shared -o libmylib.so objfile.o
 ```
 will create the actual library
 
