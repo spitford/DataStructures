@@ -23,12 +23,12 @@ Attempting to create baseline libraries for simple data structures.
 
 I will be attempting to use dynamic libraries, so the following commands must be used.
 
-'''bash
+'''
 gcc -fPIC -c objfile.c
 '''
 will create the object files for creating a dynamic library
 
-'''bash
+'''
 gcc - shared -o libmylib.so objfile.o
 '''
 will create the actual library
