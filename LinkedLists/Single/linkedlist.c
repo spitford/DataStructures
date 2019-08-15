@@ -32,5 +32,5 @@ void printInt(void *n) {
 
 void printFloat(void *f) {
 
-   printf(" %f", *(float *)n);
+   printf(" %f", *(float *)f);
 }
